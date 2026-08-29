@@ -66,7 +66,7 @@ The demo fixture is local and illustrative. It does not read Shopify data, write
 
 ## Challenge submission notes
 
-The WebMCP Challenge requires a working live URL, an English project description, a public repository with an open-source license, and a public YouTube demo video under three minutes. The repository must include source, assets, instructions, and a visible license. This local package is a prepared submission repository; it has not been pushed to GitHub because no GitHub authorization was provided.
+The WebMCP Challenge requires a working live URL, an English project description, a public repository with an open-source license, and a public YouTube demo video under three minutes. The repository must include source, assets, instructions, and a visible license. This repository is prepared as a public WebMCP Challenge submission package. The live demo URL and video upload are tracked separately from this source repository.
 
 Official references:
 
