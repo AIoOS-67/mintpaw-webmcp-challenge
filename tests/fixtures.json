@@ -1,0 +1,18 @@
+{
+  "productId": "mintpaw-litter-box-demo",
+  "petMismatch": {
+    "productId": "mintpaw-litter-box-demo",
+    "requestId": "fixture-pet-mismatch",
+    "petProfile": { "species": "dog", "size": "large", "weightKg": 28, "useContext": "indoor" }
+  },
+  "hardwareMismatch": {
+    "productId": "mintpaw-litter-box-demo",
+    "requestId": "fixture-hardware-mismatch",
+    "hardwareProfile": { "region": "GB", "network": "5GHz", "voltage": "230V", "hasRequiredExtras": true }
+  },
+  "hardwareUnknown": {
+    "productId": "mintpaw-litter-box-demo",
+    "requestId": "fixture-hardware-unknown",
+    "hardwareProfile": { "region": "US", "network": "unknown", "voltage": "120V", "hasRequiredExtras": true }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "mintpaw-webmcp-compatibility",
+  "version": "0.1.0",
+  "description": "English WebMCP compatibility tools and an AI-powered incompatibility interception demo for MintPaw.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "scan": "node tests/scan.mjs"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

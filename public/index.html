@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="MintPaw WebMCP compatibility demo for safe pet technology shopping." />
+    <title>MintPaw Compatibility Intelligence</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-mark"><span class="brand-dot"></span> MintPaw</div>
+      <span class="header-note">WebMCP Challenge Demo</span>
+    </header>
+
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">AI-POWERED INCOMPATIBILITY INTERCEPTION</p>
+        <h1>Check first. Buy with confidence.</h1>
+        <p class="hero-copy">MintPaw helps shoppers and browser agents catch pet-profile and hardware mismatches before a purchase path begins.</p>
+        <div class="status-pill" id="webmcp-status">Checking WebMCP availability...</div>
+      </section>
+
+      <section class="grid" aria-label="Compatibility tools">
+        <article class="card">
+          <div class="card-icon">P</div>
+          <h2>Pet profile match</h2>
+          <p class="card-copy">Test the product against a pet species, size, weight, and use context.</p>
+          <form id="pet-form">
+            <label>Pet species
+              <select id="pet-species"><option value="cat">Cat</option><option value="dog">Dog</option></select>
+            </label>
+            <label>Pet size
+              <select id="pet-size"><option value="small">Small</option><option value="medium" selected>Medium</option><option value="large">Large</option></select>
+            </label>
+            <label>Weight (kg)
+              <input id="pet-weight" type="number" value="5" min="0.1" step="0.1" />
+            </label>
+            <button type="submit">Run pet check</button>
+          </form>
+          <div class="result" id="pet-result" aria-live="polite">Choose a profile to see the safety decision.</div>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">H</div>
+          <h2>Hardware and network check</h2>
+          <p class="card-copy">Check region, Wi-Fi band, voltage, and required hardware conditions.</p>
+          <form id="hardware-form">
+            <label>Region
+              <select id="hardware-region"><option value="US">United States</option><option value="CA">Canada</option><option value="GB">United Kingdom</option></select>
+            </label>
+            <label>Network
+              <select id="hardware-network"><option value="2.4GHz">2.4GHz Wi-Fi</option><option value="5GHz">5GHz Wi-Fi</option><option value="unknown">Not confirmed</option></select>
+            </label>
+            <label>Household voltage
+              <select id="hardware-voltage"><option value="120V">120V</option><option value="230V">230V</option></select>
+            </label>
+            <button type="submit">Run hardware check</button>
+          </form>
+          <div class="result" id="hardware-result" aria-live="polite">Choose hardware conditions to see the safety decision.</div>
+        </article>
+      </section>
+
+      <section class="principles">
+        <div><strong>Read-only tools</strong><span>No cart, checkout, or order side effects.</span></div>
+        <div><strong>Fail-safe decisions</strong><span>Unknown or conflicting data becomes verification required.</span></div>
+        <div><strong>Human confirmation</strong><span>A passing check never places an order.</span></div>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
